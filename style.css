@@ -80,18 +80,19 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 0px;
+    padding: 20px 0px;
 }
 .section_2_p {
     color: #1F2937;
     width: 40%;
-    font-size:18px;
-    font-style: italic;
+    font-size:26px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
     margin-left: 30%;
 }
 .author {
     display: flex;
-    font-size: 18px;
+    font-size: 26px;
     width: 70%;
     justify-content: flex-end;
 }
