@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: #1f2937;
+    color: white;
+    min-height: 40%;
+}
+
+.header_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.header_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.main_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px;
+}
+.main_header_1 {
+    width: 35%;
+}
+.btn_signup {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 25px;
+}
+.main_header_2 {
+    min-width: 35%;
+    min-height: 150px;
+    background-color: #6e6e6e;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box_header {
+    margin: 5%;
+}
+
+.img_box {
+    border: 2px solid #3882f6;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+.img_text {
+    width: 100px;
+    text-align: center;
+}
+.section_2 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+.section_2_p {
+    color: #1F2937;
+    width: 40%;
+    font-size:18px;
+    font-style: light italic;
+    margin-left: 30%;
+}
+.author {
+    display: flex;
+    font-size: 18px;
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.section_3 {
+    margin: 5% 15%;
+    min-height: 100px;
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.section_3_text {
+    display: flex;
+    flex-direction: column;
+}
+.section_3_text1 {
+    font-size: 20px;
+}
+.section_3_text2 {
+    font-size: 14px;
+}
+.section_3_button {
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 25px; 
+}
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
