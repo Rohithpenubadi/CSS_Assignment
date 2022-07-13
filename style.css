@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 20%;
+    width: 30%;
 }
 
 .main_header {
@@ -86,7 +86,7 @@ body {
     color: #1F2937;
     width: 40%;
     font-size:18px;
-    font-style: light italic;
+    font-style: italic;
     margin-left: 30%;
 }
 .author {
