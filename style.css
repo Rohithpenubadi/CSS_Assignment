@@ -17,7 +17,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 30%;
+    width: 35%;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .main_header {
@@ -53,6 +55,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
+}
+
+.section1_header {
+    font-weight: bold;
+    font-size: 26px;
 }
 
 .box_info {
@@ -60,6 +68,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 75%;
 }
 .box_header {
     margin: 5%;
