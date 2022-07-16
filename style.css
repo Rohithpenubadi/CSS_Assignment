@@ -20,7 +20,9 @@ body {
     width: 35%;
     font-size: 20px;
     font-weight: bold;
+    list-style-type: none;
 }
+ul { list-style-type: none; }
 
 .main_header {
     display: flex;
